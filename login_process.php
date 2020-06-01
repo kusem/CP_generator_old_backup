@@ -1,10 +1,10 @@
 <?php
 session_start();
-//phpinfo();
 require_once ("base_scripts/PasswordHash.php");
 $t_hasher = new PasswordHash(8, false);
 
 /*
+//testpass:
 $entered_pass = 'cegth8';
 $hash = $t_hasher->HashPassword($entered_pass);
 
